@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real p, g
+
+    escreva("Digite o seu peso em kg: ")
+    leia(p)
+
+    g = p * 1000
+
+    escreva("O seu peso em gramas é igual a: ", g)
+
+  }
+}
