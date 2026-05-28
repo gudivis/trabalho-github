@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    real p, np1, np2
+
+    escreva("Digite o seu peso: ")
+    leia(p)
+
+    np1 = p + (p * 0.15)
+    np2 = p - (p * 0.20)
+
+    escreva("Seu novo peso será: ", np1, "kg se você engordar 15%")
+    escreva("\nSeu novo peso será: ", np2, "kg se você emagrecer 20%")
+  }
+}
